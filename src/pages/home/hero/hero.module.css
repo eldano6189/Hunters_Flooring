@@ -1,0 +1,38 @@
+.container {
+  height: 100svh;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.container__content > h1 {
+  color: var(--fc-main);
+  font-family: var(--ff-header);
+  font-size: var(--fs-hero);
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 16ch;
+  text-wrap: balance;
+}
+
+.container__content > h1 span {
+  color: var(--fc-brand);
+  font-style: italic;
+}
+
+.container__content > p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+}

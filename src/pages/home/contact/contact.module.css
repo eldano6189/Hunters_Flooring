@@ -1,0 +1,79 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 0;
+  background: var(--bkgrd-clr-invert);
+}
+
+.container__text {
+  display: grid;
+  gap: 2rem;
+}
+
+.container__text > h2 {
+  color: var(--fc-invert);
+  font-family: var(--ff-header);
+  font-size: var(--fs-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 16ch;
+  text-wrap: balance;
+}
+
+.container__text > p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+}
+
+.container__promise {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.container__promise > h3 {
+  color: var(--fc-brand);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+  text-transform: uppercase;
+}
+
+.container__promise > p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+}
+
+.container__contact > p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+}
+
+.container__contact > a {
+  color: var(--fc-invert);
+  font-family: var(--ff-header);
+  font-size: var(--fs-title);
+  font-weight: 400;
+  max-width: 48ch;
+  text-wrap: balance;
+}
+
+.container__form {
+  background: var(--bkgrd-clr-main);
+}

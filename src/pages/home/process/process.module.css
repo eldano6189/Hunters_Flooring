@@ -1,0 +1,116 @@
+.container {
+  display: grid;
+  gap: 4rem;
+  padding: 4rem 0;
+  background: var(--bkgrd-clr-secondary);
+}
+
+.container__text {
+  display: grid;
+}
+
+.container__text h2 {
+  color: var(--fc-main);
+  font-family: var(--ff-header);
+  font-size: var(--fs-title);
+  font-weight: 600;
+}
+
+.container__text p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: 300;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+}
+
+.grid__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-top: 2px solid var(--border-clr-main);
+}
+
+.item__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__head p {
+  color: var(--fc-main);
+  font-family: var(--ff-header);
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.item__head p:last-of-type {
+  font-size: var(--fs-caption);
+  color: var(--fc-brand);
+}
+
+.item__body {
+  display: grid;
+  gap: 1rem;
+}
+
+.item__body p:first-of-type {
+  color: var(--fc-main);
+  font-family: var(--ff-header);
+  font-size: var(--fs-body);
+  font-weight: 700;
+}
+
+.item__body p:last-of-type {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 300;
+}
+
+.item__foot {
+  padding: 1rem 0;
+}
+
+.item__foot p {
+  color: var(--fc-brand);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container__cta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: var(--bkgrd-clr-main);
+  padding: 2rem;
+  border: 1px solid var(--border-clr-main);
+}
+
+.cta__text {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.cta__text p {
+  color: var(--fc-main);
+  font-family: var(--ff-header);
+  font-size: var(--fs-body);
+  font-weight: 700;
+}
+
+.cta__text p:last-of-type {
+  color: var(--fc-secondary);
+  font-family: var(--ff-body);
+  font-size: var(--fs-caption);
+  font-weight: 500;
+}

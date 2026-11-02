@@ -1,0 +1,5 @@
+.container__home > section {
+  padding-inline: max(1rem, 6vw);
+  position: relative;
+  z-index: 1;
+}

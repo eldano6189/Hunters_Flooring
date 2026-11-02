@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ff-header: "Syne", sans-serif;
+  --ff-body: "Plus Jakarta Sans", sans-serif;
+  --fc-main: #121211;
+  --fc-secondary: #848180;
+  --fc-brand: #b39979;
+  --fc-invert: #fff8f0;
+  --fs-hero: clamp(3rem, 1.64rem + 5.45vi, 6rem); /*Font weight 700*/
+  --fs-title: clamp(2rem, 1.27rem + 2.91vi, 3.6rem); /*Font weight 600*/
+  --fs-body: clamp(1rem, 0.94rem + 0.23vi, 1.125rem); /*Font weight 400*/
+  --fs-caption: clamp(0.75rem, 0.69rem + 0.23vi, 0.88rem); /*Font weight 500*/
+
+  --btn-clr-main: #fff8f0;
+  --btn-clr-invert: #121211;
+  --btn-fc-main: #121211;
+  --btn-fc-invert: #fff8f0;
+
+  --bkgrd-clr-main: #fff8f0;
+  --bkgrd-clr-secondary: #f3ede4;
+  --bkgrd-clr-invert: #121211;
+
+  --border-clr-main: #e4e2e1;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
